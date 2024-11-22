@@ -9,8 +9,8 @@ class DashboardWidget extends StatelessWidget{
   Widget build(BuildContext context) {
     return const Column(
       children: [
-        const SizedBox(height: 18),
-        const HeaderWidget(),
+        SizedBox(height: 18),
+        HeaderWidget(),
       ],
     );
   }}
